@@ -1,10 +1,3 @@
-/** COPYRIGHT
-* @version   $Id: README.md 7650 2016-01-30 03:47:02 UTC jmartin $
-* @author    John Martin http://johndavidfive.com
-* @copyright Copyright (C) 2007 - 2016 John Martin
-* @license   MIT, see LICENSE file
-*/
-
 # Sublime Auto Copyright
 Automatically adds configurable copyright info from project settings on save to the very top of each file in Sublime Text.
 
