@@ -1,4 +1,5 @@
-# sublimeAutoCopyRight
+# Sublime Auto Copyright
+WARNING: No legal advice is given here. The use of this plugin does not give any legal guarentees of protection. Use at your own risk. The goal is to provide a starting point for others to customize their legal language for their own projects.
 Automatically adds configurable copyright info from project settings on save in sublime
 
 ## Summary
@@ -56,6 +57,11 @@ Here is an example of a \<your project\>.sublime-project file:
 If everything is good... you should be able to open a file within your project and save it and the copyright info should be injected on the first line of your file.
 If it does not, then open the sublime console and try again and monitor the messages. The most likely error is that you did not specify all values in the json.
 On Mac, hit ctrl + ~ to open the console
+
+
+### Future Enhancements
+
+* Would love some help compiling a new file with just a list of license links and text that people can use in the project settings
 
 
 
