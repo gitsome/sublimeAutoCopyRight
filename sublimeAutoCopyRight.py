@@ -52,6 +52,23 @@ def hasCopyRightStamp(self, view):
     copyRightMatches = view.find_all('\/\*\* COPYRIGHT')
     return len(copyRightMatches) != 0
 
+def fileNeedsStamp(view):
+
+    thisFilename, thisFileExtension = os.path.splitext(view.file_name())
+
+    thisFileExtension = re.sub('.', '', thisFileExtension)
+
+    allowableExtensions = view.settings().get("copyRightInfo").get("allowableExtensions")
+
+    print thisFileExtension
+
+    if allowableExtensions == None:
+        allowableExtensions = [];
+
+    if any(thisFileExtension in s for s in allowableExtensions):
+        return True
+    else:
+        return False
 
 class AddCopyRightStampListener(sublime_plugin.EventListener):
 
@@ -60,5 +77,7 @@ class AddCopyRightStampListener(sublime_plugin.EventListener):
         if view.settings().get("copyRightInfo") == None:
             return
 
-        if hasCopyRightStamp(self, view) == False:
-            AddCopyRightStamp(self, view)
+        if fileNeedsStamp(view) != False:
+
+            if hasCopyRightStamp(self, view) == False:
+                AddCopyRightStamp(self, view)

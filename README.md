@@ -36,7 +36,7 @@ In Sublime, click Tools > New Plugin. Copy and paste the code within this reposi
 
 1. Ensure that there is a "settings" object within the \<your project name\>.sublime-project json file which will be at the root of your project
 2. Add a "copyRightInfo" object to the "settings" object
-3. Specify the "name", "site", and "licenseText" properties and values to that json file
+3. Specify the "name", "site", "licenseText", and "allowableExtensions" properties and values to that json file
 
 Here is an example of a \<your project\>.sublime-project file:
 
@@ -52,7 +52,8 @@ Here is an example of a \<your project\>.sublime-project file:
         "copyRightInfo": {
             "name": "John Martin",
             "site": "http://johndavidfive.com",
-            "licenseText": "alkdfj adlfkja dslkjas dflk jasdflja sdlfjasdfyasofdlj asldfjkasdlkfj alsdfjlasdkjf las"
+            "licenseText": "alkdfj adlfkja dslkjas dflk jasdflja sdlfjasdfyasofdlj asldfjkasdlkfj alsdfjlasdkjf las",
+            "allowableExtensions": ["js", "css"]
         }
     }
 }
