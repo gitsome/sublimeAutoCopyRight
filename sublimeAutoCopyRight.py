@@ -56,11 +56,9 @@ def fileNeedsStamp(view):
 
     thisFilename, thisFileExtension = os.path.splitext(view.file_name())
 
-    thisFileExtension = re.sub('.', '', thisFileExtension)
+    thisFileExtension = re.sub('\.', '', thisFileExtension)
 
     allowableExtensions = view.settings().get("copyRightInfo").get("allowableExtensions")
-
-    print thisFileExtension
 
     if allowableExtensions == None:
         allowableExtensions = [];
