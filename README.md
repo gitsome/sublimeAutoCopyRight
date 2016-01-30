@@ -1,6 +1,8 @@
 # Sublime Auto Copyright
-WARNING: No legal advice is given here. The use of this plugin does not give any legal guarentees of protection. Use at your own risk. The goal is to provide a starting point for others to customize their legal language for their own projects.
 Automatically adds configurable copyright info from project settings on save in sublime
+
+## Warning
+No legal advice is given here. The use of this plugin does not give any legal guarentees of protection. Use at your own risk. The goal is to provide a starting point for others to customize their legal language for their own projects.
 
 ## Summary
 This plugin allows copyright comments to be inserted into the top of each file as it is saved if it already does not exist. The configurations come from configured project settings in the <?>.sublime-project json file within the "settings" object
