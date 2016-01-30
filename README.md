@@ -21,18 +21,18 @@ Here is an example of a <your project>.sublime-project file:
     "folders":
     [
         {
-            "path": "/Users/jmartin/Desktop/grasptheory/source/grasptheorywebapp"
+            "path": "/Users/John/some/path"
         }
     ],
     "settings": {
         "copyRightInfo": {
             "name": "John Martin",
-            "site": "http://grasptheory.com",
-            "licenseText": "Proprietary. You may NOT copy, use, modify, or distribute any piece of this software in any way"
+            "site": "http://johndavidfive.com",
+            "licenseText": "alkdfj adlfkja dslkjas dflk jasdflja sdlfjasdfyasofdlj asldfjkasdlkfj alsdfjlasdkjf las"
         }
     }
 }
-'''
+```
 
 ## Requirements
 
