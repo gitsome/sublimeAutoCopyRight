@@ -24,6 +24,7 @@ In Sublime, click Tools > New Plugin. Copy and paste the code within this reposi
 
 ### 2. Create/Verify you have the proper project settings
 
+* http://www.joshuawinn.com/understanding-projects-in-sublime-text-saving-switching-etc/
 
 ### 3. Add the "copyRightInfo" configurations to your project settings
 
