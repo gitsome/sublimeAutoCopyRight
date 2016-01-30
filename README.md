@@ -14,14 +14,9 @@ The simplest way to create the needed files for your project is to go to Project
 This will generate a \<your project name\>.sublime-project file that is a json file
 
 
-## Requirements
+## Steps to Intall and Use
 
 You will need to perform just a few simple steps:
-
-1. Install the plugin
-2. Create or verify you have project settings
-3. Add the "copyRightInfo" configurations to your project settings
-4. Start using the plugin!
 
 ### 1. Install the Plugin
 In Sublime, click Tools > New Plugin. Copy and paste the code within this repository's sublimeAutoCopyRight.py file. Save it and name it "sublimeAutoCopyRight.py"
@@ -63,7 +58,7 @@ If it does not, then open the sublime console and try again and monitor the mess
 On Mac, hit ctrl + ~ to open the console
 
 
-### Future Enhancements
+## Future Enhancements
 
 * Would love some help compiling a new file with just a list of license links and text that people can use in the project settings
 
