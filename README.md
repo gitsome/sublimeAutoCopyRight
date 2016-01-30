@@ -25,7 +25,7 @@ You will need to perform just a few simple steps:
 In Sublime, click Tools > New Plugin. Copy and paste the code within this repository's sublimeAutoCopyRight.py file. Save it and name it "sublimeAutoCopyRight.py"
 
 
-### 2. Create or verify you have project settings
+### 2. Create/Verify you have the proper project settings
 
 
 ### 3. Add the "copyRightInfo" configurations to your project settings
