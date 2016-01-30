@@ -1,22 +1,17 @@
-/** COPYRIGHT
-* @version   $Id: sublimeAutoCopyRight.sublime-project 0426 2016-01-30 03:33:44 UTC jmartin $
-* @author    John Martin http://johndavidfive.com
-* @copyright Copyright (C) 2007 - 2016 John Martin
-* @license   MIT, see LICENSE file
-*/
-
 {
-    "folders":
-    [
-        {
-            "path": "/Users/jmartin/Desktop/sublimePlugin/sublimeAutoCopyRight"
-        }
-    ],
-    "settings": {
-        "copyRightInfo": {
-            "name": "John Martin",
-            "site": "http://johndavidfive.com",
-            "licenseText": "MIT, see LICENSE file"
-        }
-    }
+	"folders":
+	[
+		{
+			"path": "/Users/jmartin/Desktop/sublimePlugin/sublimeAutoCopyRight"
+		}
+	],
+	"settings":
+	{
+		"copyRightInfo":
+		{
+			"licenseText": "MIT, see LICENSE file",
+			"name": "John Martin",
+			"site": "http://johndavidfive.com"
+		}
+	}
 }
