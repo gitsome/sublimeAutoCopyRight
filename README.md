@@ -1,4 +1,4 @@
-# Sublime Auto Copyright [BETA]
+# Sublime Auto Copyright - BETA
 Automatically adds configurable copyright info from project settings on save to the very top of each file in Sublime Text.
 
 ## Warning
